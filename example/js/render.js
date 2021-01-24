@@ -1,0 +1,1 @@
+ReactDOM.render( /*#__PURE__*/React.createElement(Form, null), document.getElementById('content'));

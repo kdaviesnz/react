@@ -8,10 +8,19 @@
       "@babel/preset-react"
     ]
   },
+  "plugins": [
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ]
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel js/script.jsx -o js/script.js",
-    "build-clock": "./node_modules/.bin/babel clock/jsx -d clock/js -w"
+    "build-clock": "./node_modules/.bin/babel clock/jsx -d clock/js -w",
+    "build-example": "./node_modules/.bin/babel example/jsx -d example/js -w"
   },
   "repository": {
     "type": "git",
