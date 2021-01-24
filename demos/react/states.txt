@@ -51,7 +51,7 @@ document.getElementById('content')
 )
 
 Then run "npm run build-clock"
-Then run "http_server -c-1"
+Then run "http-server -c-1"
 http://127.0.0.1:8080/clock/ (incognito window)
 
 You will see the following error in the javascript console:

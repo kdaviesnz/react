@@ -208,7 +208,7 @@
 				{
 					"question": "What is the correct syntax for the event declaration?",
 					"options": ["onClick=this.doStuff", "onclick={this.doStuff}", "onClick='this.doStuff'", "onClick={this.doStuff}", "onClick={this.doStuff()"],
-					"answer": "onclick={this.doStuff}"
+					"answer": "onClick={this.doStuff}"
 				}
 			]
 		},

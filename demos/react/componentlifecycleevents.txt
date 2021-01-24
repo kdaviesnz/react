@@ -51,8 +51,8 @@ as well as to send XHR requests to a server, because at this point in the lifecy
 component’s element is in the real DOM and you get access to all of its elements,
 including children.
 
-As mentioned earlier, the componentDidMount() event is the best place to inte-
-grate with other JavaScript libraries. You can fetch a JSON payload that has a list of
+As mentioned earlier, the componentDidMount() event is the best place to integrate with other JavaScript libraries.
+ You can fetch a JSON payload that has a list of
 users with their info.
 
 eg:

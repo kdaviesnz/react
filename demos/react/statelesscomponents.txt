@@ -1,9 +1,10 @@
 Stateless components
 
-A stateless component has no states or components or any other React lifecycle events/methods (see chapter 5). The purpose of a stateless component is just to render the view. The only thing it can do is take properties and do something with
-them—it’s a simple function with the input (properties) and the output ( UI element).
+A stateless component has no states or components or any other React lifecycle events/methods (see chapter 5). The purpose of a stateless component is just to render the view. The only thing it can do is
+take properties and do something with them—it’s a simple function with the input (properties) and the output ( UI element).
 
-The benefit of using stateless components is that they’re predictable, because you have one input that determines the output. Predictability means they’re easier to understand, maintain, and debug. In fact, not having a state is the most desired React practice—the more stateless components you use and the fewer stateful ones you use, the better.
+The benefit of using stateless components is that they’re predictable, because you have one input that determines the output. Predictability means they’re easier to understand, maintain, and debug.
+In fact, not having a state is the most desired React practice—the more stateless components you use and the fewer stateful ones you use, the better.
 
 Example stateless component:
 
