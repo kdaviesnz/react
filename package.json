@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel js/script.jsx -o js/script.js",
+    "build-clock": "./node_modules/.bin/babel clock/jsx -d clock/js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdaviesnz/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdaviesnz/react/issues"
+  },
+  "homepage": "https://github.com/kdaviesnz/react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/preset-react": "^7.12.10"
+  }
+}

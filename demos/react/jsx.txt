@@ -13,7 +13,7 @@ Next add the following to package.json
 ...
 }
 
-Next run "npm uninstall -g babe"
+Next run "npm uninstall -g babel"
 
 Then run "npm install --save-dev @babel/core @babel/cli"
 
